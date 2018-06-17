@@ -101,7 +101,6 @@ _tmp
 app
 .git
 
-package-lock.json
 .log
 .zip
 .tmp

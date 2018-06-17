@@ -1,12 +1,12 @@
 {
     "name": "errector",
-    "version": "0.9.1",
-    "description": "Erector - gulp, webpack, nunjucks and sass builder",
+    "version": "0.9.2",
+    "description": "Errector - gulp, webpack, nunjucks and sass builder",
     "main": "index.js",
     "scripts": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lugindm/erector.git"
+        "url": "git+https://github.com/lugindm/errector.git"
     },
     "keywords": [
         "gulp",
@@ -17,9 +17,9 @@
     "author": "Lugin Dmitriy",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/lugindm/erector/issues"
+        "url": "https://github.com/lugindm/errector/issues"
     },
-    "homepage": "https://github.com/lugindm/erector#readme",
+    "homepage": "https://github.com/lugindm/errector#readme",
     "devDependencies": {
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.4",
