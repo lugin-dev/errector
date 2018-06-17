@@ -1,0 +1,24 @@
+// ------------------------
+// Only grid.
+// Container, container-fluid, row, cols
+
+// Grid classes
+$col_class: 'col'
+$container_class: 'container'
+$row_class: 'row'
+
+// Cols count and medias (min-width)
+$cols: 12
+$medias: (xs: 576, sm: 768, md: 992, lg: 1200)
+
+// $gutter in small displays
+// $gutter_medias media display $gutter_medias:(media min-width, size)
+// Use even number
+$gutter: 16px
+$gutter_medias: (768: 30px)
+
+// Container max-width (min-width, size)
+// Default max-width: 100%
+$container: (768: 90%, 992: 970px, 1200: 1170px)
+
+@import 'grid.sass'

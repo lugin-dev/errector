@@ -1,0 +1,22 @@
+# Use variable in html {{site_name}}
+# color_theme for meta and favicons
+
+site_name: 'Erector'
+# site_url: 'url-you-project.com'
+lang: 'ru'
+color_theme: '#fff'
+
+
+# You can use any variables and level of nesting
+
+
+# Optionals. Developer info
+# if there is added to the header {{developer.label}}
+# comment or delete if dont need
+developer: {
+        label: 'Made in 🅻🆄🅶🅸🅽.🆂🅸🆃🅴',
+        contacts: 'hello@lugin.site, telegram: t.me/lugindm',
+        # author, author_url for meta tag "author" and favicons
+        author: 'Lugin Dmitriy',
+        author_url: 'https://lugin.site'
+    }

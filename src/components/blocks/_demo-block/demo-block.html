@@ -1,0 +1,23 @@
+<div class="demo">
+
+	<h1>{{site_name}}</h1>
+	<p>Frontend builder. Gulp 4, Webpack 4, Nunjucks, Sass</p>
+	<small>by Dmitriy Lugin</small>
+
+	{# Demo use Nunjucks #}
+	{# {% set items = 	[
+		{
+			title: "Demo title json",
+			text: "From components/items/_demo-item"
+		},
+		{
+			title: "Demo title json",
+			text: "From components/items/_demo-item",
+			button: "Demo button"
+		}]
+	%}
+	{% for item in items %}
+		{% include "components/chunks/_demo-chunk/demo-chunk.html" %}
+	{% endfor %} #}
+
+</div>

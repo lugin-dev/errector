@@ -1,0 +1,7 @@
+<div class="demo-item">
+	<p class="demo-item__title">{{item.title}} <b>({{loop.index}} of {{loop.length}})</b></p>
+	<small class="demo-item__text">{{item.text}}</small>
+	{% if item.button %}
+		<button class="demo-item__button">{{item.button}}</button>
+	{% endif %}
+</div>

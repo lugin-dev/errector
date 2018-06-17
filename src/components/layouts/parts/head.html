@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+{% if developer.author %}<meta name="author" content="{{developer.author}} | {{developer.author_url}}">{% endif %}
+{% if developer.label %}<!--{{developer.label}}-->{% endif %}
+{% if developer.contacts %}<!--{{developer.contacts}}-->{% endif %}
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>{{title}} | {{site_name}}</title>
+<meta name="description" content="{{description}}"/>
+{% if keywords %}<meta name="keywords" content="{{keywords}}" />{% endif %}
+<!--<Deject>--><!-- Skype fix --><!--</Deject>-->
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<meta content="telephone=no" name="format-detection">
+<!--<Deject>--><!-- Favicons --><!--</Deject>-->
+{% include "components/layouts/parts/favicons.html" %}
+<!--<Deject>--><!-- Open Graph --><!--</Deject>-->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{site_name}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+{% if site_url %}<meta property="og:url" content="{{site_url}}">{% endif %}
+<meta property="og:locale" content="{{lang}}_{{lang | upper}}">
+<meta property="og:image" content="img/social/preview.jpg">
+<meta property="og:image:width" content="968">
+<meta property="og:image:height" content="504">

@@ -1,0 +1,14 @@
+// Margins and paddings
+@if $indents == true
+	@each $pm_class, $pm_direction in $classes
+		@each $item_postfix, $item_size in $sizes
+			.#{$pm_class}-#{$item_postfix}
+				#{$pm_direction}: nth($item_size, 1)
+
+@if $indents == true
+	@each $pm_class, $pm_direction in $classes
+		@each $item_postfix, $item_size in $sizes
+			.#{$pm_class}-#{$item_postfix}
+				@for $m from 1 through length($medias)
+					+minw( nth($medias, $m) ) // media min-width
+						#{$pm_direction}: round( nth($item_size, 1) + ( nth($item_size, 2) - nth($item_size, 1) ) / length($medias) * $m )
