@@ -20,19 +20,35 @@ $browser-context: 16
 
 // Media
 =maxw($width)
-  @media only screen and (max-width: $width+ "px")
+  @media (max-width: $width)
+    @content
+
+=maxwor($width, $orientation)
+  @media (max-width: $width) and (orientation: $orientation)
     @content
 
 =minw($width)
-  @media only screen and (min-width: $width+ "px")
+  @media (min-width: $width)
+    @content
+		
+=minwor($width, $orientation)
+  @media (min-width: $width) and (orientation: $orientation)
     @content
 
 =maxh($width)
-  @media only screen and (max-height: $width+ "px")
+  @media (max-height: $width)
+    @content
+
+=maxhor($width, $orientation)
+  @media (max-height: $width) and (orientation: $orientation)
     @content
 
 =minh($width)
-  @media only screen and (min-height: $width+ "px")
+  @media (min-height: $width)
+    @content
+
+=minhor($width, $orientation)
+  @media (min-height: $width) and (orientation: $orientation)
     @content
 
 // Fonts

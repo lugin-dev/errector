@@ -1,6 +1,6 @@
 {
     "name": "errector",
-    "version": "0.9.2",
+    "version": "0.9.3",
     "description": "Errector - gulp, webpack, nunjucks and sass builder",
     "main": "index.js",
     "scripts": {},
@@ -69,10 +69,6 @@
         "webpack-manifest-plugin": "^2.0.3",
         "webpack-stream": "^4.0.3"
     },
-    "dependencies": {
-        "animejs": "^2.2.0",
-        "gsap": "^2.0.1",
-        "jquery": "^3.3.1"
-    },
+    "dependencies": {},
     "optionalDependencies": {}
 }

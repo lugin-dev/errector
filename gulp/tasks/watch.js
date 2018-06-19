@@ -42,9 +42,9 @@ gulp.task('watch', () => {
 
 
     // Watch SVG
-    gulp.watch(_path.src.img + '/svg/_include/**/*.*', gulp.series('svg:include'));
+    gulp.watch(_path.src.img + '/svg/_include/*.*', gulp.series('svg:include'));
 
-    gulp.watch(_path.src.img + '/svg/_sprite/**/*.*', gulp.series('svg:sprite'));
+    gulp.watch(_path.src.img + '/svg/_sprite/*.*', gulp.series('svg:sprite'));
 
     // Watch fonts
     gulp.watch(_path.src.fonts + '/**/*.*', gulp.series('fonts'))
