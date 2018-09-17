@@ -70,5 +70,13 @@
         "webpack-stream": "^4.0.3"
     },
     "dependencies": {},
-    "optionalDependencies": {}
+    "optionalDependencies": {},
+    "files": [
+        "src",
+        "gulp",
+        "package.json",
+        "README.md",
+        "gulpfile.babel.js",
+        ".babelrc"
+    ]
 }

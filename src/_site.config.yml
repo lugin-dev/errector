@@ -8,7 +8,7 @@ color_theme: '#fff'
 
 
 # You can use any variables and level of nesting
-
+main_html_template: 'main.html'
 
 # Optionals. Developer info
 # if there is added to the header {{developer.label}}
